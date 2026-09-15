@@ -1,0 +1,17 @@
+[project]
+name = "glm2-sae"
+version = "0.1.0"
+description = "Intergenic SAE feature inference on gLM2-650M, from a DNA FASTA."
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.4",
+    "transformers>=4.44",
+    "huggingface_hub>=0.27",
+    "safetensors>=0.4",
+    "numpy>=1.26",
+    "einops>=0.8",
+    "pyrodigal>=3.5",
+]
+
+[tool.uv]
+package = false
